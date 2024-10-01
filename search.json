@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Experience",
+    "section": "",
+    "text": "Data Entry Clerk at IT Coalitions\nI worked at the USCIS Immigration Center as a contracted employee of the Department of Homeland Security. Working here as a Data Entry Clerk gave me experience in dealing with confidential information and how to properly document them.\n\n\nMarketing Internship at Rose Gold Marketing\nI completed a summer internship at Rose Gold Marketing which allowed to me have hands-on experience with different marketing tactics as well as giving me an opportuinty to improve skills related to consumer relations and product sales.\n\n\nTutor at Mathnasium\nI spent over a year as a math teacher at the Mathnasium of Sunnyvale. Teaching a wide variety of math principles to kids aged between 6-19 allowed me to gain valuable insights on teaching principles as well as multi-tasking."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Abishek Mathews",
+    "section": "",
+    "text": "I graduated from the University of Texas at Dallas with a B.S. in Economics and am now pursuing a M.S. in Social Data Analysis and Research as well as a M.S. in Data Science."
+  },
+  {
+    "objectID": "personal.html",
+    "href": "personal.html",
+    "title": "Personal",
+    "section": "",
+    "text": "In my free time I like to play basketball, read, and watch critically acclaimed TV shows to see if they’re worth the hype."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Abishek Mathews is a social data analyst, currently studying Social Data Analysis and Research along with Data Science at the University of Texas at Dallas. My research focuses on juvenile delinquency, with an additional interest in recidivism rates associated with alternative education centers. I study centers designed to alleviate the dangers of juveniles before they become adults. I am interested in using data science in predicting observational data and survey methodology."
+  },
+  {
+    "objectID": "index.html#website",
+    "href": "index.html#website",
+    "title": "Abishek Mathews",
+    "section": "Website",
+    "text": "Website"
+  },
+  {
+    "objectID": "experience.html#i-spent-over-a-year-as-a-math-teacher-at-the-mathnasium-of-sunnyvale.-teaching-a-wide-variety-of-math-principles-to-kids-aged-between-6-19-allowed-me-to-gain-valuable-insights-on-teaching-principles-as-well-as-multi-tasking.",
+    "href": "experience.html#i-spent-over-a-year-as-a-math-teacher-at-the-mathnasium-of-sunnyvale.-teaching-a-wide-variety-of-math-principles-to-kids-aged-between-6-19-allowed-me-to-gain-valuable-insights-on-teaching-principles-as-well-as-multi-tasking.",
+    "title": "Experience",
+    "section": "I spent over a year as a math teacher at the Mathnasium of Sunnyvale. Teaching a wide variety of math principles to kids aged between 6-19 allowed me to gain valuable insights on teaching principles as well as multi-tasking.",
+    "text": "I spent over a year as a math teacher at the Mathnasium of Sunnyvale. Teaching a wide variety of math principles to kids aged between 6-19 allowed me to gain valuable insights on teaching principles as well as multi-tasking."
+  },
+  {
+    "objectID": "EPPS6302.html",
+    "href": "EPPS6302.html",
+    "title": "EPPS 6302",
+    "section": "",
+    "text": "Methods of Data Collection and Production\n\nAssignment 2: R-package Google trends data vs. Downloaded data on Google trends.\n\nDifferences: The gtrendsR package is a lot more in depth than the Google Trends version however, Google Trends is easier to access. Google trends doesn’t have the ability to manipulate data or change how it is viewed but it does allow you to search in specific time frames as well as location and type of search."
+  }
+]
