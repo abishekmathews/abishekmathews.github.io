@@ -1,1 +1,280 @@
-/* css styles */
+:root {
+  --ink: #17202a;
+  --muted: #5c6672;
+  --line: #d9e0e7;
+  --paper: #fbfcfd;
+  --panel: #ffffff;
+  --accent: #0f766e;
+  --accent-strong: #115e59;
+  --warm: #b45309;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.navbar {
+  background: #102331;
+  box-shadow: 0 8px 24px rgba(16, 35, 49, 0.12);
+}
+
+.navbar-title {
+  font-weight: 700;
+}
+
+#quarto-content {
+  padding-top: 1.5rem;
+}
+
+#quarto-content.page-columns {
+  display: block;
+}
+
+main.content {
+  margin: 0 auto;
+  max-width: 1040px;
+  width: min(1040px, calc(100vw - 2rem));
+}
+
+.sidebar.margin-sidebar {
+  display: none;
+}
+
+.quarto-title-block {
+  display: none;
+}
+
+h2,
+h3 {
+  color: var(--ink);
+  letter-spacing: 0;
+}
+
+a {
+  color: var(--accent-strong);
+}
+
+a:hover {
+  color: var(--warm);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(260px, 0.8fr);
+  gap: 2rem;
+  align-items: center;
+  padding: 3rem 0 2rem;
+}
+
+.hero > div {
+  grid-column: 1 !important;
+  min-width: 0;
+}
+
+.hero > aside.profile-card {
+  grid-column: 2 !important;
+}
+
+.eyebrow {
+  color: var(--accent-strong);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  font-size: clamp(2.4rem, 6vw, 4.6rem);
+  font-weight: 800;
+  line-height: 0.96;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  color: var(--muted);
+  font-size: 1.16rem;
+  line-height: 1.65;
+  margin-bottom: 1.4rem;
+}
+
+.hero-actions,
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.button-link {
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  display: inline-flex;
+  font-weight: 700;
+  gap: 0.45rem;
+  padding: 0.72rem 1rem;
+  text-decoration: none;
+}
+
+.button-link.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.button-link:hover {
+  background: #eef7f5;
+  text-decoration: none;
+}
+
+.button-link.primary:hover {
+  background: var(--accent-strong);
+  color: #fff;
+}
+
+.profile-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 18px 48px rgba(23, 32, 42, 0.08);
+  overflow: hidden;
+}
+
+.profile-card img {
+  aspect-ratio: 4 / 5;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.profile-card .caption {
+  color: var(--muted);
+  font-size: 0.93rem;
+  line-height: 1.45;
+  margin: 0;
+  padding: 1rem;
+}
+
+.section-band {
+  border-top: 1px solid var(--line);
+  padding: 2.5rem 0;
+}
+
+.section-intro {
+  color: var(--muted);
+  max-width: 760px;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.grid.two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid.three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.info-card,
+.project-card,
+.timeline-item {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1.2rem;
+}
+
+.info-card h3,
+.project-card h3,
+.timeline-item h3 {
+  font-size: 1.08rem;
+  margin-top: 0;
+}
+
+.info-card p,
+.project-card p,
+.timeline-item p {
+  color: var(--muted);
+  line-height: 1.55;
+  margin-bottom: 0;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.project-card .button-link {
+  margin-top: auto;
+  width: fit-content;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+.tag-list li {
+  background: #edf4f2;
+  border: 1px solid #d2e5e1;
+  border-radius: 999px;
+  color: var(--accent-strong);
+  font-size: 0.88rem;
+  font-weight: 700;
+  padding: 0.38rem 0.72rem;
+}
+
+.timeline {
+  display: grid;
+  gap: 1rem;
+}
+
+.timeline-item .meta {
+  color: var(--warm);
+  display: block;
+  font-size: 0.88rem;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
+.timeline-item ul {
+  color: var(--muted);
+  margin-bottom: 0;
+  padding-left: 1.2rem;
+}
+
+.timeline-item li + li {
+  margin-top: 0.4rem;
+}
+
+.callout-strip {
+  background: #f4f7f9;
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  color: var(--muted);
+  line-height: 1.6;
+  padding: 1rem 1.2rem;
+}
+
+@media (max-width: 850px) {
+  .hero,
+  .grid.two,
+  .grid.three {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding-top: 2rem;
+  }
+}
