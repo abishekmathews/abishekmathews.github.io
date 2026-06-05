@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Abishek Mathews",
     "section": "",
-    "text": "Abishek Mathews is a social data analytics and data science graduate student building data workflows that turn real-world policy, spatial, and behavioral data into clear models and decisions. Selected work includes short-term rental price modeling with gradient boosting and geospatial joins, a Grocery Tracker database project, and an analysis of study time and exam scores. Skills include Python, R, SQL, Pandas, NumPy, scikit-learn, statistical modeling, machine learning, gradient boosting, spatial analysis, PostgreSQL, and R Shiny."
+    "text": "Abishek Mathews is a social data analytics and data science graduate student building data workflows that turn real-world policy, spatial, and behavioral data into clear models and decisions. Selected work includes the Dallas Housing Intelligence Platform, a Shiny dashboard for short-term rental price estimation with gradient boosting diagnostics and district maps, a Grocery Tracker database project, and an analysis of study time and exam scores. Skills include Python, R, SQL, Pandas, NumPy, scikit-learn, statistical modeling, machine learning, gradient boosting, spatial analysis, PostgreSQL, and R Shiny."
   },
   {
     "objectID": "personal.html",
@@ -32,7 +32,7 @@
     "href": "index.html#selected-work",
     "title": "Abishek Mathews",
     "section": "Selected Work",
-    "text": "Short-Term Rental Price Modeling, Grocery Tracker App, and Study Time and Exam Scores projects."
+    "text": "Dallas Housing Intelligence Platform, Grocery Tracker App, and Study Time and Exam Scores projects."
   },
   {
     "objectID": "index.html#skills",
